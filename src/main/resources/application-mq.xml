@@ -20,8 +20,6 @@
               id="amqpTemplate"
               exchange="test-mq-exchange"  
               connection-factory="connectionFactory"
-               routing-key="xxx"
-                     message-converter="messageConverter"
                      encoding="UTF-8"/>
      
      <!-- 声明消息转换器为SimpleMessageConverter -->
