@@ -22,7 +22,7 @@ public class TestQueue{
     @Test
     public void testSendString() throws Exception {
     	try {
-    	rabbit.receiveAndConvert("xxx-1");
+    	rabbit.receiveAndConvert("xxxq");
     	}catch(Exception e) {
     		e.printStackTrace();
     	}
