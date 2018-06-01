@@ -24,14 +24,11 @@
               id="amqpTemplate"
               exchange="test-mq-exchange"  
               connection-factory="connectionFactory"
-              confirm-callback="msgSendConfirmCallBack"
-              return-callback="msgReturnCallback"
-              mandatory="true"
               reply-timeout="2000"
                      encoding="UTF-8"/>
                      
-                     <bean id="msgSendConfirmCallBack" class="com.fengyj.MsgSendConfirmCallBack"/>
-                     <bean id="msgReturnCallback" class="com.fengyj.MsgReturnCallback"/>
+                   <!--   <bean id="msgSendConfirmCallBack" class="com.fengyj.MsgSendConfirmCallBack"/>
+                     <bean id="msgReturnCallback" class="com.fengyj.MsgReturnCallback"/> -->
      
      <!-- 声明消息转换器为SimpleMessageConverter -->
    <!--  <bean id="msgConverter" class="org.springframework.amqp.support.converter.SimpleMessageConverter" /> -->
