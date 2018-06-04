@@ -16,8 +16,8 @@ public class TestQueue{
     @Autowired
     RabbitTemplate rabbit;
     
-    @Autowired
-    QueueListener  queueListener;
+    /*@Autowired
+    QueueListener  queueListener;*/
 
     @Test
     public void testSendString() throws Exception {
